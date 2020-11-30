@@ -48,7 +48,16 @@ function App() {
             {" "}
             <b>+353 830032583</b>
           </div>
+        </div>  
+        <header className="Summary-header">
+          <b>Personal Summary</b>
+        </header>  
+        <div>
+        <div className="Summary-div">
+        Agile Development Lead on an Accenture project for the Department of Social Protection, specialising in .NET/C# development. Leading the design and implementation of a modern RESTful API, OAuth 2.0 Identity Management Application and a front facing .NET Blazor application integrating with MyWelfare.
+        </div>  
         </div>
+ 
       </div>
 
       <div className="Bottom-div-behavior">

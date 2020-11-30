@@ -10,6 +10,27 @@
     font-family: "Raleway";
   }
 
+  .Summary-header {
+    font-size: 150%;
+    text-align-last: center;
+    padding-top: 20px;
+    font-family: "raleway-bold";
+  }
+
+  .Summary-div {
+    font-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "raleway";
+    width: 80%;
+    display: inline-block;
+    margin: 2px;
+  }
+
+  .Summary-parent-div {
+    width: 100%;
+  }
+
   .Div-tech {
     display: flex;
     margin-left: 0%;
@@ -49,12 +70,14 @@
     font-size: 120%;
     text-align: left;
   }
+
   .Bottom-header-bold {
     font-family: "Raleway-Bold";
     font-size: 80%;
 
     text-align: left;
   }
+
   .Bottom-header-light {
     font-family: "Raleway";
     font-size: 80%;
@@ -74,6 +97,7 @@
     text-align: left;
     width: 90%;
   }
+
   .Bottom-header-light-small {
     font-family: "Raleway";
     font-size: 70%;
@@ -93,6 +117,7 @@
     text-align: left;
     font-family: raleway;
   }
+
   .Div-portfolio-header {
     inline-size: min-content;
     display: inline-block;
@@ -108,6 +133,7 @@
   .Header-text {
     margin: 2%;
   }
+
   .Header-separator {
     display: none;
   }
@@ -120,6 +146,7 @@
     background-color: rgba(0, 0, 0, 0.12);
     width: 100%;
   }
+
   .Divider-display-condition {
     border: none;
     height: 1px;
@@ -128,6 +155,7 @@
     background-color: rgba(0, 0, 0, 0.12);
     width: 100%;
   }
+
   .ul-work {
     padding-inline-start: 5%;
   }
@@ -147,6 +175,27 @@
     border-width: 1px;
     text-align-last: center;
     font-family: "Raleway";
+  }
+
+  .Summary-header {
+    font-size: 150%;
+    text-align-last: center;
+    padding-top: 20px;
+    font-family: "raleway-bold";
+  }
+
+  .Summary-div {
+    font-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "raleway";
+    width: 80%;
+    display: inline-block;
+    margin: 2px;
+  }
+
+  .Summary-parent-div {
+    width: 100%;
   }
 
   .Div-tech {
@@ -188,11 +237,13 @@
     font-size: 150%;
     text-align: left;
   }
+
   .Bottom-header-bold {
     font-family: "Raleway-Bold";
     font-size: 100%;
     text-align: left;
   }
+
   .Bottom-header-light {
     font-family: "Raleway";
     font-size: 100%;
@@ -212,6 +263,7 @@
     text-align: left;
     width: 90%;
   }
+
   .Bottom-header-light-small {
     font-family: "Raleway";
     font-size: 80%;
@@ -241,6 +293,7 @@
   .Header-text {
     margin: 2%;
   }
+
   .Header-separator {
     display: none;
   }
@@ -253,6 +306,7 @@
     background-color: rgba(0, 0, 0, 0.12);
     width: 100%;
   }
+
   .Divider-display-condition {
     border: none;
     height: 1px;
@@ -261,9 +315,11 @@
     background-color: rgba(0, 0, 0, 0.12);
     width: 100%;
   }
+
   .ul-other {
     padding-inline-start: 5%;
   }
+
   .ul {
     padding-inline-start: 19%;
   }
@@ -321,12 +377,14 @@
     font-size: 200%;
     text-align: left;
   }
+
   .Bottom-header-bold {
     font-family: "Raleway-Bold";
     font-size: 150%;
 
     text-align: left;
   }
+
   .Bottom-header-light {
     font-family: "Raleway";
     font-size: 150%;
@@ -339,12 +397,14 @@
     text-align: left;
     white-space: nowrap;
   }
+
   .Bottom-header-light-small {
     font-family: "Raleway";
     font-size: 100%;
     text-align: left;
     width: 80%;
   }
+
   .Bottom-header-light-small {
     font-family: "Raleway";
     font-size: 100%;
@@ -374,6 +434,7 @@
   .Header-text {
     margin: 2%;
   }
+
   .Header-separator {
     display: none;
   }
@@ -386,6 +447,7 @@
     background-color: rgba(0, 0, 0, 0.12);
     width: 100%;
   }
+
   .Divider-display-condition {
     border: none;
     height: 1px;
@@ -414,6 +476,27 @@
     border-width: 1px;
     text-align-last: center;
     font-family: "Raleway";
+  }
+
+  .Summary-header {
+    font-size: 150%;
+    text-align-last: center;
+    padding-top: 20px;
+    font-family: "raleway-bold";
+  }
+
+  .Summary-div {
+    font-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "raleway";
+    width: 60%;
+    display: inline-block;
+    margin: 2px;
+  }
+
+  .Summary-parent-div {
+    width: 100%;
   }
 
   .Div-tech {
@@ -456,12 +539,14 @@
     font-size: 230%;
     text-align: left;
   }
+
   .Bottom-header-bold {
     font-family: "Raleway-Bold";
     font-size: 180%;
 
     text-align: left;
   }
+
   .Bottom-header-light {
     font-family: "Raleway";
     font-size: 180%;
@@ -495,6 +580,7 @@
     text-align: left;
     font-family: raleway;
   }
+
   .Div-portfolio-header {
     inline-size: min-content;
     display: inline-block;
@@ -510,6 +596,7 @@
   .Header-text {
     margin: 2%;
   }
+
   .Header-separator {
     display: none;
   }
@@ -522,6 +609,7 @@
     background-color: rgba(0, 0, 0, 0.12);
     width: 100%;
   }
+
   .Divider-display-condition {
     border: none;
     height: 1px;
@@ -534,6 +622,7 @@
   .ul-work {
     padding-inline-start: 5%;
   }
+
   .ul {
     padding-inline-start: 16%;
   }
@@ -551,6 +640,27 @@
     font-family: "Raleway";
   }
 
+  .Summary-header {
+    font-size: 150%;
+    text-align-last: center;
+    padding-top: 20px;
+    font-family: "raleway-bold";
+  }
+
+  .Summary-div {
+    font-size: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "raleway";
+    width: 40%;
+    display: inline-block;
+    margin: 2px;
+  }
+
+  .Summary-parent-div {
+    width: 100%;
+  }
+
   .Div-tech {
     display: flex;
     margin-left: 0%;
@@ -559,7 +669,7 @@
   .Bottom-div-behavior {
     display: flex;
     align-items: baseline;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 10%;
   }
 
@@ -593,12 +703,14 @@
     font-size: 200%;
     text-align: left;
   }
+
   .Bottom-header-bold {
     font-family: "Raleway-Bold";
     font-size: 150%;
     width: 80%;
     text-align: left;
   }
+
   .Bottom-header-light {
     font-family: "Raleway";
     font-size: 150%;
@@ -619,6 +731,7 @@
     width: 80%;
     text-align: left;
   }
+
   .Bottom-header-light-small {
     font-family: "Raleway";
     font-size: 100%;
@@ -665,6 +778,7 @@
     background-color: rgba(0, 0, 0, 0.12);
     width: 70%;
   }
+
   .Divider-display-condition {
     display: none;
   }
@@ -681,6 +795,7 @@
 :root {
   background-color: #eff9f0;
 }
+
 .app {
   padding-bottom: 40px;
 }
@@ -716,6 +831,7 @@ a:active {
   font-family: "Raleway";
 }
 
+
 .Div-compartment {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -729,6 +845,7 @@ a:active {
   margin-bottom: 20px;
   margin-top: 40px;
 }
+
 .Experience-compartment {
   margin-bottom: 40px;
   margin-top: 40px;
@@ -739,6 +856,7 @@ a:active {
   display: inline-block;
   white-space: nowrap;
 }
+
 .Div-experience-header {
   font-family: raleway-bold;
   inline-size: min-content;
@@ -746,7 +864,7 @@ a:active {
   white-space: nowrap;
 }
 
-.Div-project-last{
+.Div-project-last {
   margin-top: 20px;
-    width: auto;
+  width: auto;
 }
