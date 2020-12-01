@@ -8,7 +8,14 @@ function App() {
         <header className="App-header">
           Darren <b>Doyle</b>
         </header> 
-        <div className="Header-details"><b><a href="https://github.com/swizkhalifaa">github.com/swizkhalifaa</a></b> || <b><a href="mailto: darren.doyle3710@gmail.com">darren.doyle3710@gmail.com</a></b> || +353 0830032583</div>
+        <div className="Header-details">
+          <div className="Header-text"><b><a href="https://github.com/swizkhalifaa">github.com/swizkhalifaa</a></b></div>
+          <div className="Header-separator">||</div>
+           <div className="Header-text"><b><a href="mailto: darren.doyle3710@gmail.com">darren.doyle3710@gmail.com</a></b></div>
+           <div className="Header-separator">||</div>
+           <div className="Header-text"><b>+3530830032583</b></div>
+        </div>
+
       </div>
       
       <div className="Bottom-div-behavior">
@@ -96,7 +103,7 @@ function App() {
         </header> 
         </div>
         <header className="Bottom-header-bold">
-          OCUCO LTD  <text className="Bottom-header-light-small"> | PROFESSINAL SERVICES ENGINEER</text>
+        OCUCO LTD  <text className="Bottom-header-light-small"> | PROFESSINAL SERVICES ENGINEER</text>
         </header> 
         <header className="Bottom-header-light">
           Internship
@@ -178,7 +185,6 @@ function App() {
             <header className="Bottom-header-light">
               - MongoDB
             </header>
-            <div className="Div-compartment">
             <header className="Bottom-header-bold">
               IDEs
             </header> 
@@ -195,7 +201,6 @@ function App() {
               - Kotlin
             </header>
             </div>
-            </div>
         </div>
         
         <div className="Subject-compartment">
@@ -210,7 +215,7 @@ function App() {
            | Kotlin + Android
         </header>
         <div className="Div-project">
-        <header className="Bottom-header-light-small">
+        <header className="Bottom-header-light-portfolio">
         Final year college project that involved learning Android development with no prior knowledge and writing an application in Kotlin which also had to be learned. Social media application with a Firebase backend allowing chatting and a 'matching' system.
         </header>
         </div>
@@ -219,7 +224,7 @@ function App() {
         | C# + JavaScript
         </header>
         <div className="Div-project">
-        <header className="Bottom-header-light-small">
+        <header className="Bottom-header-light-portfolio">
         A distributed web chat application which demonstrates concepts such as fault tolerance, concurrency and scalability using ASP.NET with C# and JavaScript.
         </header>
         </div>
@@ -228,7 +233,7 @@ function App() {
         | Python
         </header>
         <div className="Div-project">
-        <header className="Bottom-header-light-small">
+        <header className="Bottom-header-light-portfolio">
         A data processing pipeline system written in Python which scrapes browser HTML to obtain dynamic football statistics in realtime.
         </header>
         </div>
@@ -237,7 +242,7 @@ function App() {
         | ReactJS + JavaScript
         </header>
         <div className="Div-project">
-        <header className="Bottom-header-light-small">
+        <header className="Bottom-header-light-portfolio">
         An ambitious summer project post-college to learn JavaScript and ReactJS and make a web application with Spotify functionality through REST API calls.
         </header>
         </div>
