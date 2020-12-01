@@ -331,43 +331,39 @@
 
   .Bottom-header{
     font-family: 'Raleway';
-    font-size: 200%;
+    font-size: 250%;
     text-align: left;
   }
   .Bottom-header-bold{
     font-family: 'Raleway-Bold';
-    font-size: 150%;
+    font-size: 200%;
 
     text-align: left;
   }
   .Bottom-header-light{
     font-family: 'Raleway';
-    font-size: 150%;
+    font-size: 200%;
     text-align: left;
   }
   
   .Bottom-header-light-small{
     font-family: 'Raleway';
-    font-size: 100%;
+    font-size: 120%;
     text-align: left;
     width: 80%;
   }
-  .Bottom-header-light-small{
-    font-family: 'Raleway';
-    font-size: 100%;
-    text-align: left;
-  }
+
   
   .Bottom-header-light-portfolio{
     font-family: 'Raleway';
-    font-size: 100%;
+    font-size: 120%;
     text-align: left;
     width: 80%;
   }
 
   .Header-details{
     margin: 4%;
-    font-size: 90%;
+    font-size: 100%;
     display: block;
   }
 
