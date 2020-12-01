@@ -10,13 +10,13 @@
   }
 
   .Div-tech{
-    display: flow-root;
-    margin-left: 15%;
+    display: flex;
+    margin-left: 0%;
   }
 
   .Bottom-div-behavior{
-    margin-left: 8%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .Left-div{
@@ -30,11 +30,11 @@
   }
 
   .Div-language{
-    width: auto;
+    width: 50%;
     }
     
   .Div-other{
-    width: auto;
+    width: 50%;
   }
 
   .Div-project{
@@ -45,18 +45,18 @@
 
   .Bottom-header{
     font-family: 'Raleway';
-    font-size: 150%;
+    font-size: 120%;
     text-align: left;
   }
   .Bottom-header-bold{
     font-family: 'Raleway-Bold';
-    font-size: 100%;
+    font-size: 80%;
 
     text-align: left;
   }
   .Bottom-header-light{
     font-family: 'Raleway';
-    font-size: 100%;
+    font-size: 80%;
     text-align: left;
   }
   
@@ -105,13 +105,13 @@
   }
 
   .Div-tech{
-    display: flow-root;
-    margin-left: 15%;
+    display: flex;
+    margin-left: 0%;
   }
 
   .Bottom-div-behavior{
-    margin-left: 8%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .Left-div{
@@ -125,11 +125,11 @@
   }
 
   .Div-language{
-    width: auto;
+    width: 50%;
     }
     
   .Div-other{
-    width: auto;
+    width: 50%;
   }
 
   .Div-project{
@@ -140,18 +140,17 @@
 
   .Bottom-header{
     font-family: 'Raleway';
-    font-size: 180%;
+    font-size: 150%;
     text-align: left;
   }
   .Bottom-header-bold{
     font-family: 'Raleway-Bold';
-    font-size: 120%;
-
+    font-size: 100%;
     text-align: left;
   }
   .Bottom-header-light{
     font-family: 'Raleway';
-    font-size: 120%;
+    font-size: 100%;
     text-align: left;
   }
   
@@ -207,7 +206,7 @@
   .Bottom-div-behavior{
     align-items: center;
     margin-left: 10%;
-    margin-right: 2%;
+    margin-right: 10%;
   }
 
   .Left-div{
@@ -302,8 +301,8 @@
 
   .Bottom-div-behavior{
     align-items: center;
-    margin-left: 20%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .Left-div{
@@ -398,7 +397,8 @@
 
   .Bottom-div-behavior{
     display: flex;
-    margin-left: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .Left-div{
