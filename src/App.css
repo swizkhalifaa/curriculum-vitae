@@ -86,10 +86,22 @@
   }
 
   .Header-text{
-    margin: 0%;
+    margin: 2%;
   }
   .Header-separator{
-    color: #ffffff;
+    display: none;
+  }
+
+  .Divider{
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+  }
+  .ul-work{
+    padding-inline-start: 5%;
   }
 }
 
@@ -180,10 +192,22 @@
   }
 
   .Header-text{
-    margin: 0%;
+    margin: 2%;
   }
   .Header-separator{
-    color: #ffffff;
+    display: none;
+  }
+
+  .Divider{
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+  }
+  .ul-work{
+    padding-inline-start: 5%;
   }
 }
 
@@ -276,10 +300,23 @@
   }
 
   .Header-text{
-    margin: 0.5%;
+    margin: 2%;
   }
   .Header-separator{
-    color: #ffffff;
+    display: none;
+  }
+
+  .Divider{
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+  }
+
+  .ul-work{
+    padding-inline-start: 5%;
   }
 }
 
@@ -368,10 +405,23 @@
   }
 
   .Header-text{
-    margin: 0.5%;
+    margin: 2%;
   }
   .Header-separator{
-    color: #ffffff;
+    display: none;
+  }
+
+  .Divider{
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+  }
+
+  .ul-work{
+    padding-inline-start: 5%;
   }
 }
 
@@ -388,11 +438,12 @@
 
   .Div-tech{
     display: flex;
-    margin-left: 2%;
+    margin-left: 0%;
   }
 
   .Bottom-div-behavior{
     display: flex;
+    align-items: baseline;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -456,7 +507,7 @@
   .Bottom-header-light-portfolio{
     font-family: 'Raleway';
     font-size: 100%;
-    width: 100%;
+    width: 80%;
     text-align: left;
   }
 
@@ -471,10 +522,23 @@
   }
 
   .Header-separator{
+    display: initial;
     margin: 0.5%;
     color: #000000;
   }
   
+  .Divider{
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 70%;
+  }
+
+  .ul-work{
+    padding-inline-start: 2%;
+  }
 } 
 
 
@@ -520,6 +584,9 @@ a:active {
   margin-top: 40px;
 }
 
+.ul{
+  padding-inline-start: 10%;
+}
 
 
 

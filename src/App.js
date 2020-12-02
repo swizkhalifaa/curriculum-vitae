@@ -74,7 +74,7 @@ function App() {
         <header className="Bottom-header-light-small">
           <b>Computer Security</b>
         </header>
-
+        
 
 
 
@@ -93,9 +93,12 @@ function App() {
         </header>
         </div>
       
-
-
+        <div className="Div-compartment">
+        <hr className="Divider"></hr>
+        </div>
+        
         <div className="Subject-compartment">
+          
         <div className="Div-compartment">
         <div className="Div-compartment">
         <header className="Bottom-header">
@@ -116,22 +119,26 @@ function App() {
           WORK DETAILS:
         </header>
         <div className="Div-compartment">
-        <header className="Bottom-header-light-small">
-          - Provided first line support to customers in United States and Europe
-        </header>
-        <header className="Bottom-header-light-small">
-          - Ran SQL queries to resolve irregularities in customers databases
-        </header>
-        <header className="Bottom-header-light-small">
-          - Liaised with the development team to troubleshoot critical and urgent issues
-        </header>
-        <header className="Bottom-header-light-small">
-          - Testing of new software
-        </header>
-        <header className="Bottom-header-light-small">
-          - Record all issues in JIRA
-        </header>
+          <ul className="ul-work">
+              <li className="Bottom-header-light-small">
+                Provided first line support to customers in United States and Europe
+              </li>
+              <li className="Bottom-header-light-small">
+                Ran SQL queries to resolve irregularities in customers databases
+              </li>
+              <li className="Bottom-header-light-small">
+                Liaised with the development team to troubleshoot critical and urgent issues
+              </li>
+              <li className="Bottom-header-light-small">
+                Testing of new software
+              </li>
+              <li className="Bottom-header-light-small">
+                Record all issues in JIRA
+              </li>
+          </ul>
+        
         </div>
+        <hr className="Divider"></hr>
         </div>
         </div>
       {/* other side */}
@@ -146,32 +153,34 @@ function App() {
         <div className="Div-tech">
           <div className="Div-language">
           <header className="Bottom-header-bold">
-          PROGRAMMING
+            PROGRAMMING
             </header> 
-            <header className="Bottom-header-light">
-              - Java
-            </header>
-            <header className="Bottom-header-light">
-              - C#
-            </header>
-            <header className="Bottom-header-light">
-              - Python
-            </header>
-            <header className="Bottom-header-light">
-              - Kotlin
-            </header>
-            <header className="Bottom-header-light">
-              - Javascript
-            </header>
-            <header className="Bottom-header-light">
-              - ReactJS
-            </header>
-            <header className="Bottom-header-light">
-              - HTML5/CSS
-            </header>
-            <header className="Bottom-header-light">
-              - Android
-            </header>
+              <ul className="ul">
+                <li className="Bottom-header-light">
+                  Java
+                </li>
+                <li className="Bottom-header-light">
+                  C#
+                </li>
+                <li className="Bottom-header-light">
+                  Python
+                </li>
+                <li className="Bottom-header-light">
+                  Kotlin
+                </li>
+                <li className="Bottom-header-light">
+                  Javascript
+                </li>
+                <li className="Bottom-header-light">
+                  ReactJS
+                </li>
+                <li className="Bottom-header-light">
+                  HTML5/CSS
+                </li>
+                <li className="Bottom-header-light">
+                  Android
+                </li>
+              </ul>
             </div>
 
 
@@ -179,31 +188,39 @@ function App() {
             <header className="Bottom-header-bold">
               DATABASES
             </header> 
-            <header className="Bottom-header-light">
-              - SQL
-            </header>
-            <header className="Bottom-header-light">
-              - MongoDB
-            </header>
-            <header className="Bottom-header-bold">
-              IDEs
-            </header> 
-            <header className="Bottom-header-light">
-              - Visual Studio
-            </header>
-            <header className="Bottom-header-light">
-              - VS Code
-            </header>
-            <header className="Bottom-header-light">
-              - Android Studio
-            </header>
-            <header className="Bottom-header-light">
-              - Kotlin
-            </header>
+              <ul className="ul">
+                <li className="Bottom-header-light">
+                SQL
+                </li>
+                <li className="Bottom-header-light">
+                  MongoDB
+                </li>
+              </ul>
+                <header className="Bottom-header-bold">
+                  IDEs
+                </header> 
+              <ul className="ul">
+                <li className="Bottom-header-light">
+                  Visual Studio
+                </li>
+                <li className="Bottom-header-light">
+                  VS Code
+                </li>
+                <li className="Bottom-header-light">
+                  Android Studio
+                </li>
+                <li className="Bottom-header-light">
+                  Kotlin
+                </li>
+              </ul>
+            
             </div>
+            
         </div>
-        
-        <div className="Subject-compartment">
+        <div className="Div-compartment"></div>
+
+        <hr className="Divider"></hr>
+        <div className="Subject-compartment">  
         <div className="Div-compartment">
         <div className="Div-compartment">
         <header className="Bottom-header">
@@ -246,6 +263,7 @@ function App() {
         An ambitious summer project post-college to learn JavaScript and ReactJS and make a web application with Spotify functionality through REST API calls.
         </header>
         </div>
+        <hr className="Divider"></hr>
         </div>
         </div>
         </div>
