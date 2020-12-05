@@ -1,6 +1,10 @@
 import "./App.css";
 import { Helmet } from "react-helmet";
 import ExternalLink from './ExternalLink';
+import Education from './Education';
+import Experience from './Experience';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
@@ -41,7 +45,8 @@ function App() {
           <div className="Div-compartment">
             {/* EDUCATION */}
             <div className="Div-compartment">
-              <header className="Bottom-header">EDUCATION</header>
+              <header className="Bottom-header">EDUCATION {"  "}<Education /></header>
+              
             </div>
             <header className="Bottom-header-bold">
               DUBLIN BUSINESS SCHOOL
@@ -96,7 +101,7 @@ function App() {
             <div className="Div-compartment">
               {/* EXPERIENCE */}
               <div className="Div-compartment">
-                <header className="Bottom-header">EXPERIENCE</header>
+                <header className="Bottom-header">EXPERIENCE <Experience /></header>
               </div>
 
               <div className="Div-portfolio">
@@ -145,7 +150,7 @@ function App() {
           <div className="Div-compartment">
             {/* SKILLS */}
             <div className="Div-compartment">
-              <header className="Bottom-header">TECHNICAL SKILLS</header>
+              <header className="Bottom-header">TECHNICAL SKILLS <Skills /></header>
             </div>
           </div>
           <div className="Div-tech">
@@ -185,7 +190,7 @@ function App() {
             <div className="Div-compartment">
               {/* PORTFOLIO */}
               <div className="Div-compartment">
-                <header className="Bottom-header">PORTFOLIO</header>
+                <header className="Bottom-header">PORTFOLIO <Portfolio /></header>
               </div>
               <div className="Div-portfolio">
               
