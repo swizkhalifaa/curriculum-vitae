@@ -1,8 +1,13 @@
 import "./App.css";
+import { Helmet } from "react-helmet";
+import ExternalLink from './ExternalLink';
 
 function App() {
   return (
     <div className="app">
+      <Helmet>
+        <title>CV</title>
+      </Helmet>
       {/* HEADER CONTENT */}
       <div className="Div-header">
         <header className="App-header">
@@ -183,12 +188,18 @@ function App() {
                 <header className="Bottom-header">PORTFOLIO</header>
               </div>
               <div className="Div-portfolio">
+              
+              
                 <div className="Div-portfolio-header">
                   <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
                     <b> CAPSTONE ANDROID APPLICATION </b>
+                    {" "}
+                  <ExternalLink />
                   </a>
+                  
                 </div>{" "}
-                <div className="Div-portfolio-header"> | Kotlin + Android</div>
+                <div className="Div-portfolio-header"> | Kotlin + Android </div>
+                
               </div>
               <div className="Div-project">
                 <header className="Bottom-header-light-portfolio">
@@ -203,6 +214,8 @@ function App() {
                 <div className="Div-portfolio-header">
                   <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
                     <b> DISTRIBUTED CHAT ROOM </b>
+                    {" "}
+                  <ExternalLink />
                   </a>
                 </div>{" "}
                 <div className="Div-portfolio-header"> | C# + JavaScript</div>
@@ -218,6 +231,8 @@ function App() {
                 <div className="Div-portfolio-header">
                   <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
                     <b> FOOTBALL WEB SCRAPER </b>
+                    {" "}
+                  <ExternalLink />
                   </a>
                 </div>{" "}
                 <div className="Div-portfolio-header"> | Python</div>
@@ -233,6 +248,8 @@ function App() {
                 <div className="Div-portfolio-header">
                   <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
                     <b> SPOTIFY SOCIAL NETWORK </b>
+                    {" "}
+                  <ExternalLink />
                   </a>
                 </div>{" "}
                 <div className="Div-portfolio-header">
