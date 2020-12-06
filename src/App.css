@@ -678,8 +678,10 @@
   }
 }
 
-.app {
+:root {
   background-color: #eff9f0;
+}
+.app {
   padding-bottom: 40px;
 }
 
