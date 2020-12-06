@@ -1,10 +1,14 @@
 import "./App.css";
 import { Helmet } from "react-helmet";
-import ExternalLink from './ExternalLink';
-import Education from './Education';
-import Experience from './Experience';
-import Skills from './Skills';
-import Portfolio from './Portfolio';
+import ExternalLink from './icons/ExternalLink';
+import Education from './icons/Education';
+import Experience from './icons/Experience';
+import Skills from './icons/Skills';
+import Portfolio from './icons/Portfolio';
+import Email from './icons/Email';
+import Github from './icons/Github';
+import Phone from './icons/Phone';
+
 
 function App() {
   return (
@@ -21,9 +25,11 @@ function App() {
           <div className="Header-text">
             <b>
               <a href="https://github.com/swizkhalifaa">
-                github.com/swizkhalifaa
+                github.com/swizkhalifaa 
               </a>
             </b>
+            {" "}
+            <Github />
           </div>
           <div className="Header-separator">||</div>
           <div className="Header-text">
@@ -32,17 +38,21 @@ function App() {
                 darren.doyle3710@gmail.com
               </a>
             </b>
+            {" "}
+            <Email />
           </div>
           <div className="Header-separator">||</div>
           <div className="Header-text">
             <b>+3530830032583</b>
+            {" "}
+            <Phone />
           </div>
         </div>
       </div>
 
       <div className="Bottom-div-behavior">
         <div className="Left-div">
-          <div className="Div-compartment">
+          <div className="Top-compartment">
             {/* EDUCATION */}
             <div className="Div-compartment">
               <header className="Bottom-header">EDUCATION {"  "}<Education /></header>
@@ -97,7 +107,7 @@ function App() {
             <hr className="Divider"></hr>
           </div>
 
-          <div className="Subject-compartment">
+          <div className="Experience-compartment">
             <div className="Div-compartment">
               {/* EXPERIENCE */}
               <div className="Div-compartment">
@@ -186,8 +196,8 @@ function App() {
           <div className="Div-compartment"></div>
           <hr className="Divider"></hr>
 
-          <div className="Subject-compartment">
-            <div className="Div-compartment">
+          <div className="Portfolio-compartment">
+            <div className="Final-compartment">
               {/* PORTFOLIO */}
               <div className="Div-compartment">
                 <header className="Bottom-header">PORTFOLIO <Portfolio /></header>
@@ -262,7 +272,7 @@ function App() {
                   | ReactJS + JavaScript
                 </div>
               </div>
-              <div className="Div-project">
+              <div className="Div-project-last">
                 <header className="Bottom-header-light-portfolio">
                   An ambitious summer project post-college to learn JavaScript
                   and ReactJS and make a web application with Spotify

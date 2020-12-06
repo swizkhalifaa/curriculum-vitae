@@ -503,7 +503,7 @@
 
   .Header-details {
     margin: 4%;
-    font-size: 80%;
+    font-size: 100%;
     display: block;
   }
 
@@ -643,7 +643,8 @@
   .Header-details {
     margin: 2%;
     font-size: 100%;
-    display: inline-flex;
+    display: flex;
+    place-content: center;
   }
 
   .Header-text {
@@ -679,6 +680,7 @@
 
 .app {
   background-color: #eff9f0;
+  padding-bottom: 40px;
 }
 
 /* unvisited link */
@@ -717,12 +719,18 @@ a:active {
   margin-top: 20px;
 }
 
-.Subject-compartment {
-  margin-bottom: 40px;
+.Final-compartment {
   margin-top: 40px;
 }
 
-
+.Top-compartment {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.Experience-compartment {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 
 .Div-portfolio-header {
   inline-size: min-content;
@@ -736,3 +744,7 @@ a:active {
   white-space: nowrap;
 }
 
+.Div-project-last{
+  margin-top: 20px;
+    width: auto;
+}
