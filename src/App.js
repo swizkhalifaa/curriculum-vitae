@@ -26,7 +26,7 @@ function App() {
           <Github />
             {" "}
             <b>
-              <a href="https://github.com/swizkhalifaa">
+              <a href="https://github.com/swizkhalifaa" target="_blank">
                 github.com/swizkhalifaa 
               </a>
             </b>
@@ -207,7 +207,7 @@ function App() {
               
               
                 <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
+                  <a href="https://github.com/swizkhalifaa/College-Capstone-Project---Android-Application-Kotlin-" target="_blank">
                     <b> CAPSTONE ANDROID APPLICATION </b>
                     {" "}
                   <ExternalLink />
@@ -228,7 +228,7 @@ function App() {
               </div>
               <div className="Div-portfolio">
                 <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
+                  <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-" target="_blank">
                     <b> DISTRIBUTED CHAT ROOM </b>
                     {" "}
                   <ExternalLink />
@@ -245,7 +245,7 @@ function App() {
               </div>{" "}
               <div className="Div-portfolio">
                 <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
+                  <a href="https://github.com/swizkhalifaa/WebScraperPython" target="_blank">
                     <b> FOOTBALL WEB SCRAPER </b>
                     {" "}
                   <ExternalLink />
@@ -262,7 +262,7 @@ function App() {
               </div>
               <div className="Div-portfolio">
                 <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-">
+                  <a href="https://github.com/swizkhalifaa/React-First-Website" target="_blank">
                     <b> SPOTIFY SOCIAL NETWORK </b>
                     {" "}
                   <ExternalLink />
