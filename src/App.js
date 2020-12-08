@@ -23,29 +23,30 @@ function App() {
         </header>
         <div className="Header-details">
           <div className="Header-text">
+          <Github />
+            {" "}
             <b>
               <a href="https://github.com/swizkhalifaa">
                 github.com/swizkhalifaa 
               </a>
             </b>
-            {" "}
-            <Github />
+            
           </div>
           <div className="Header-separator">||</div>
           <div className="Header-text">
+          <Email />
+          {" "}
             <b>
               <a href="mailto: darren.doyle3710@gmail.com">
                 darren.doyle3710@gmail.com
               </a>
             </b>
-            {" "}
-            <Email />
           </div>
           <div className="Header-separator">||</div>
           <div className="Header-text">
-            <b>+3530830032583</b>
-            {" "}
             <Phone />
+            {" "}
+            <b>+3530830032583</b>
           </div>
         </div>
       </div>
