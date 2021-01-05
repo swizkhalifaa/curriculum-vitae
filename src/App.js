@@ -190,7 +190,6 @@ function App() {
                 <li className="Bottom-header-skills">Visual Studio</li>
                 <li className="Bottom-header-skills">VS Code</li>
                 <li className="Bottom-header-skills">Android Studio</li>
-                <li className="Bottom-header-skills">Kotlin</li>
               </ul>
             </div>
           </div>
