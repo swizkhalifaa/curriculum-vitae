@@ -64,7 +64,7 @@ function App() {
             </header>
             <header className="Bottom-header-light">BSc in Computing</header>
             <header className="Bottom-header-light-small">
-              <b>GPA: 1.1 (First Class Honours)</b>
+              <b>First Class Honours</b>
             </header>
             <header className="Bottom-header-light-small">
               2016-2020 || Dublin, Ireland
