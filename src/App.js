@@ -61,7 +61,7 @@ function App() {
               </div>
 
               <div className="Div-portfolio">
-                <div className="Div-experience-header">AVANADE</div>{" "}
+                <div className="Div-experience-header">AVANADE (IT Consultancy)</div>{" "}
                 <div className="Div-portfolio-header">
                   {" "}
                   | SENIOR ANALYST{" "}
@@ -90,7 +90,7 @@ function App() {
                 </li>
                 <div className="Div-experience-header"></div>{" "}
                 <li className="Bottom-header-light-small">                
-                <b>Scrum Master</b> - Led <b>Agile development</b> as <b>Scrum Master</b>, facilitating daily stand-up meetings to track progress, address issues, and maintain alignment with sprint goals. Managed sprint cycles, conducting detailed development estimations, generating <b>DevOps</b> work items, and delivering regular updates to clients, ensuring transparency and continuous improvement throughout the project lifecycle.
+                <b>Scrum Master</b> - Led <b>Agile development</b> as a <b>Scrum Master</b>, facilitating daily stand-up meetings to track progress, address issues, and maintain alignment with sprint goals. Managed sprint cycles, conducting detailed development estimations, generating <b>DevOps</b> work items, and delivering regular updates to clients, ensuring transparency and continuous improvement throughout the project lifecycle.
                 </li>
                 <div className="Div-experience-header"></div>{" "}
                 <li className="Bottom-header-light-small">              
@@ -99,14 +99,13 @@ function App() {
               </ul>
             </div>
               <div className="Div-portfolio">
-                <div className="Div-experience-header">OCUCO LTD</div>{" "}
+                <div className="Div-experience-header">OCUCO LTD (Optical Retail Software)</div>{" "}
                 <div className="Div-portfolio-header">
                   {" "}
                   | PROFESSIONAL SERVICES{" "}
                 </div>{" "}
                 <div className="Div-portfolio-header"> ENGINEER</div>
               </div>
-              <header className="Bottom-header-light">Internship</header>
               <header className="Bottom-header-light-small">
                 09/18 - 03/19 || Dublin, Ireland
               </header>
