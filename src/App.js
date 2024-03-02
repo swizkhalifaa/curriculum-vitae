@@ -26,7 +26,7 @@ function App() {
           <Github />
             {" "}
             <b>
-              <a href="https://github.com/swizkhalifaa" target="_blank">
+              <a href="https://github.com/swizkhalifaa" target="_blank" rel="noreferrer">
                 github.com/swizkhalifaa 
               </a>
             </b>
@@ -46,15 +46,106 @@ function App() {
           <div className="Header-text">
             <Phone />
             {" "}
-            <b>+3530830032583</b>
+            <b>+353 830032583</b>
           </div>
         </div>
       </div>
 
       <div className="Bottom-div-behavior">
         <div className="Left-div">
-          <div className="Top-compartment">
-            {/* EDUCATION */}
+          <div className="Experience-compartment">
+            <div className="Div-compartment">
+              {/* EXPERIENCE */}
+              <div className="Div-compartment">
+                <header className="Bottom-header">EXPERIENCE <Experience /></header>
+              </div>
+
+              <div className="Div-portfolio">
+                <div className="Div-experience-header">AVANADE</div>{" "}
+                <div className="Div-portfolio-header">
+                  {" "}
+                  | SENIOR ANALYST{" "}
+                </div>{" "}
+              </div>
+              <header className="Bottom-header-light-small">
+                03/21 - Present || Dublin, Ireland
+              </header>
+              <header className="Bottom-header-light">WORK DETAILS:</header>
+            <div className="Div-compartment">
+              <ul className="ul-other">
+                <li className="Bottom-header-light-small">
+                <b>GRO API</b> - Spearheaded the design and implementation of a modern <b>RESTful API</b> using <b>C#</b> and <b>ASP.NET</b>, facilitating seamless integration across departments and external stakeholders, resulting in successful collaborations with the Department of Foreign Affairs and Student Universal Support Ireland.
+                </li>
+                <div className="Div-experience-header"></div>{" "}
+                <li className="Bottom-header-light-small">
+                <b>Identity Management Application</b> - Designed and oversaw the development of an in-house authorization server using <b>Duende IdentityServer</b> and <b>OAuth 2.0 + OpenID</b> protocols, ensuring secure access control for client applications.
+                </li>
+                <div className="Div-experience-header"></div>{" "}
+                <li className="Bottom-header-light-small">
+                <b>Online Registration Application</b> - Directing the development of a <b>.NET 8 Blazor Server</b> application to be featured on the MyWelfare homepage for online birth registration, coordinating efforts across multiple departments and integrating with various APIs using <b>Azure Hybrid Relay</b> and <b>Azure Express Route</b>.
+                </li>
+                <div className="Div-experience-header"></div>{" "}
+                <li className="Bottom-header-light-small">
+                <b>Pull Request Review</b> - Acted as primary QA, reviewing pull requests in Azure DevOps to uphold code quality, coverage, and maintainability standards for a team of three developers.
+                </li>
+                <div className="Div-experience-header"></div>{" "}
+                <li className="Bottom-header-light-small">                
+                <b>Scrum Master</b> - Led <b>Agile development</b> as <b>Scrum Master</b>, facilitating daily stand-up meetings to track progress, address issues, and maintain alignment with sprint goals. Managed sprint cycles, conducting detailed development estimations, generating <b>DevOps</b> work items, and delivering regular updates to clients, ensuring transparency and continuous improvement throughout the project lifecycle.
+                </li>
+                <div className="Div-experience-header"></div>{" "}
+                <li className="Bottom-header-light-small">              
+                <b>Deployments</b> - Conducted deployments for UAT and Live applications, configuring <b>IIS</b>, <b>Windows Services</b>, and <b>Azure App Services</b>, including certificate management and <b>SQL Server</b> table maintenance.
+                </li>
+              </ul>
+            </div>
+              <div className="Div-portfolio">
+                <div className="Div-experience-header">OCUCO LTD</div>{" "}
+                <div className="Div-portfolio-header">
+                  {" "}
+                  | PROFESSIONAL SERVICES{" "}
+                </div>{" "}
+                <div className="Div-portfolio-header"> ENGINEER</div>
+              </div>
+              <header className="Bottom-header-light">Internship</header>
+              <header className="Bottom-header-light-small">
+                09/18 - 03/19 || Dublin, Ireland
+              </header>
+            </div>
+            <header className="Bottom-header-light">WORK DETAILS:</header>
+            <div className="Div-compartment">
+              <ul className="ul-other">
+                <li className="Bottom-header-light-small">
+                Provided remote assistance to customers using TeamViewer for troubleshooting and support of our custom software.
+
+                </li>
+                <li className="Bottom-header-light-small">
+                Utilised <b>SQL Server</b> to query and manage customer databases, ensuring data integrity and efficient operations.
+
+                </li>
+                <li className="Bottom-header-light-small">
+                  Liaised with the development team to troubleshoot critical and
+                  urgent issues
+                </li>
+                <li className="Bottom-header-light-small">
+                Implemented application software upgrades across multiple Windows operating systems (<b>Windows XP, Windows 8, Windows Server 2016</b> and more), ensuring smooth transitions and careful post-upgrade monitoring.
+
+                </li>
+                <li className="Bottom-header-light-small">
+                Logged customer ticket information in <b>Jira</b>, maintaining an organised workflow within our <b>Agile</b> Scrum framework.
+
+                </li>
+              </ul>
+            </div>
+            
+            <hr className="Divider-display-condition"></hr>
+          </div>
+        </div>
+
+        {/* other side */}
+
+        <div className="Right-div">
+          <div className="Div-compartment">
+           {/* EDUCATION */}
             <div className="Div-compartment">
               <header className="Bottom-header">EDUCATION {"  "}<Education /></header>
               
@@ -82,118 +173,15 @@ function App() {
             <li className="Bottom-header-light-small">
               Algorithms and Data Structures
             </li>
-            <li className="Bottom-header-light-small">Web Development</li>
-            <li className="Bottom-header-light-small">Big Data</li>
-            <li className="Bottom-header-light-small">Distributed Systems</li>
-            <li className="Bottom-header-light-small">Databases</li>
+            <li className="Bottom-header-light-small">Object-Orientated Programming - C# | Java | Kotlin | Python</li>
+            <li className="Bottom-header-light-small">Machine Learning - Python | RapidMiner </li>
+            <li className="Bottom-header-light-small">Networking</li>
+            <li className="Bottom-header-light-small">Databases - SQL Server | MongoDB</li>
             <li className="Bottom-header-light-small">Operating Systems</li>
-            <li className="Bottom-header-light-small">Computer Architecture</li>
-            <li className="Bottom-header-light-small">Computer Security</li>
+            <li className="Bottom-header-light-small">Algorithms & Data Structures</li>
           </ul>
 
-          <div className="Div-compartment">
-            <header className="Bottom-header-bold">
-              CASTLEKNOCK COMMUNITY COLLEGE
-            </header>
-            <header className="Bottom-header-light">Leaving Certificate</header>
-            <header className="Bottom-header-light-small">
-              <b>Passed Higher-Level Mathematics</b>
-            </header>
-            <header className="Bottom-header-light-small">
-              2011-2016 || Dublin, Ireland
-            </header>
-          </div>
-
-          <div className="Div-compartment">
-            <hr className="Divider"></hr>
-          </div>
-
-          <div className="Experience-compartment">
-            <div className="Div-compartment">
-              {/* EXPERIENCE */}
-              <div className="Div-compartment">
-                <header className="Bottom-header">EXPERIENCE <Experience /></header>
-              </div>
-
-              <div className="Div-portfolio">
-                <div className="Div-experience-header">OCUCO LTD</div>{" "}
-                <div className="Div-portfolio-header">
-                  {" "}
-                  | PROFESSINAL SERVICES{" "}
-                </div>{" "}
-                <div className="Div-portfolio-header"> ENGINEER</div>
-              </div>
-              <header className="Bottom-header-light">Internship</header>
-              <header className="Bottom-header-light-small">
-                09/18 - 03/19 || Dublin, Ireland
-              </header>
-            </div>
-            <header className="Bottom-header-light">WORK DETAILS:</header>
-            <div className="Div-compartment">
-              <ul className="ul-other">
-                <li className="Bottom-header-light-small">
-                  Provided first line support to customers in United States and
-                  Europe
-                </li>
-                <li className="Bottom-header-light-small">
-                  Ran SQL queries to resolve irregularities in customers
-                  databases
-                </li>
-                <li className="Bottom-header-light-small">
-                  Liaised with the development team to troubleshoot critical and
-                  urgent issues
-                </li>
-                <li className="Bottom-header-light-small">
-                  Testing of new software
-                </li>
-                <li className="Bottom-header-light-small">
-                  Record all issues in JIRA
-                </li>
-              </ul>
-            </div>
-            <hr className="Divider-display-condition"></hr>
-          </div>
-        </div>
-
-        {/* other side */}
-
-        <div className="Right-div">
-          <div className="Div-compartment">
-            {/* SKILLS */}
-            <div className="Div-compartment">
-              <header className="Bottom-header">TECHNICAL SKILLS <Skills /></header>
-            </div>
-          </div>
-          <div className="Div-tech">
-            <div className="Div-language">
-              <header className="Bottom-header-bold">PROGRAMMING</header>
-              <ul className="ul">
-                <li className="Bottom-header-skills">Java</li>
-                <li className="Bottom-header-skills">C#</li>
-                <li className="Bottom-header-skills">Python</li>
-                <li className="Bottom-header-skills">Kotlin</li>
-                <li className="Bottom-header-skills">Javascript</li>
-                <li className="Bottom-header-skills">ReactJS</li>
-                <li className="Bottom-header-skills">HTML5/CSS</li>
-                <li className="Bottom-header-skills">Android</li>
-              </ul>
-            </div>
-
-            <div className="Div-other">
-              <header className="Bottom-header-bold">DATABASES</header>
-              <ul className="ul">
-                <li className="Bottom-header-skills">SQL</li>
-                <li className="Bottom-header-skills">MongoDB</li>
-              </ul>
-              <header className="Bottom-header-bold">IDEs</header>
-              <ul className="ul">
-                <li className="Bottom-header-skills">Visual Studio</li>
-                <li className="Bottom-header-skills">VS Code</li>
-                <li className="Bottom-header-skills">Android Studio</li>
-              </ul>
-            </div>
-          </div>
-          <div className="Div-compartment"></div>
+          
           <hr className="Divider"></hr>
 
           <div className="Portfolio-compartment">
@@ -206,7 +194,7 @@ function App() {
               
               
                 <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/College-Capstone-Project---Android-Application-Kotlin-" target="_blank">
+                  <a href="https://github.com/swizkhalifaa/College-Capstone-Project---Android-Application-Kotlin-" target="_blank" rel="noreferrer">
                     <b> CAPSTONE ANDROID APPLICATION </b>
                     {" "}
                   <ExternalLink />
@@ -227,7 +215,7 @@ function App() {
               </div>
               <div className="Div-portfolio">
                 <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-" target="_blank">
+                  <a href="https://github.com/swizkhalifaa/Distributed-System-Project-C-" target="_blank" rel="noreferrer">
                     <b> DISTRIBUTED CHAT ROOM </b>
                     {" "}
                   <ExternalLink />
@@ -244,7 +232,7 @@ function App() {
               </div>{" "}
               <div className="Div-portfolio">
                 <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/WebScraperPython" target="_blank">
+                  <a href="https://github.com/swizkhalifaa/WebScraperPython" target="_blank" rel="noreferrer">
                     <b> FOOTBALL WEB SCRAPER </b>
                     {" "}
                   <ExternalLink />
@@ -258,27 +246,7 @@ function App() {
                   scrapes browser HTML to obtain dynamic football statistics in
                   realtime.
                 </header>
-              </div>
-              <div className="Div-portfolio">
-                <div className="Div-portfolio-header">
-                  <a href="https://github.com/swizkhalifaa/React-First-Website" target="_blank">
-                    <b> SPOTIFY SOCIAL NETWORK </b>
-                    {" "}
-                  <ExternalLink />
-                  </a>
-                </div>{" "}
-                <div className="Div-portfolio-header">
-                  {" "}
-                  | ReactJS + JavaScript
-                </div>
-              </div>
-              <div className="Div-project-last">
-                <header className="Bottom-header-light-portfolio">
-                  An ambitious summer project post-college to learn JavaScript
-                  and ReactJS and make a web application with Spotify
-                  functionality through REST API calls.
-                </header>
-              </div>
+              </div>                          
             </div>
           </div>
         </div>
