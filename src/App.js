@@ -77,7 +77,7 @@ function App() {
                 </div>{" "}
               </div>
               <header className="Bottom-header-light-small">
-                03/21 - Present || Dublin, Ireland
+                03/21 - 04/09 || Dublin, Ireland
               </header>
               <header className="Bottom-header-light">WORK DETAILS:</header>
             <div className="Div-compartment">
